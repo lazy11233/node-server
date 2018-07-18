@@ -9,7 +9,7 @@ var url = require("url");
 //创建一个server对象,并设置它端口对象。
 var server = http.createServer(function(request,response){
     // path.join(__dirname, 'static') 定位到当前文件，找到static文件夹 C:\Users\LiuZhao\Desktop\test-node\static
-    staticRoot(path.join(__dirname, "node-server") ,request,response);
+    staticRoot(path.join(__dirname, "") ,request,response);
 });
 server.listen(8080);
 
